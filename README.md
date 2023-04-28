@@ -31,8 +31,40 @@ The purpose of this project is to use Yelp data to model and predict the types o
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+### 1. Set up AWS
+
+Steps to Set up AWS
+
+Reference: Getting Started with AWS Doc
+
+Summary of Steps from Doc Above:
+
+Go to AWS Academy Learner Lab
+Click Start Lab
+When AWS light (upper left corner) is green, click on it
+Now we are on AWS Main Page:
+
+Select Cloud Formation
+Selete Create Stack (w/ new resources - standard)
+S3 link is: https://penn-cis545-files.s3.amazonaws.com/emr-course.yml
+Next. Stack Name is: CIS545-1
+Iterate stack name each time you do this (so can increae # at end)
+For the Parameters related to Amazon EMR Cluster Configuration, drop down the VpcId, VPC Public SubNet, and EC2 Key Pair and choose the first item in the list
+Livy Proxy Credentials - fill out your own password. Can use 545GroupMCIT as Pass if you want.
+Keep hitting next and click create stack.
+Stack is set up. Will take a while to run, and then will see "CREATE_COMPLETE".
+Go to Outputs, and copy the URL there.
+Past in the URL and password you set below.
+when done working: Click END LAB on Learner Lab. Otherwise $$$.
+[One-time for Entire Team] Create S3 Bucket w/ Data
+
+Select S3 (from Storage Services)
+Click create bucket. Name it 545-project. Create it.
+Go to Google Drive, and download the yelp_dataset. If not already downloaded locally.
+It will download as zip and may download in multiple files. Unzip on your computer and combine into one folder. Delete the PDF file.
+Upload folder to S3 Bucket
+Make S3 bucket public (and files within it). Also add Canonical user ID of teammates to Access Control List for read/write privileges.
+3. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
 
     *If using offline data mention that and how they may obtain the data from the froup)*
     
