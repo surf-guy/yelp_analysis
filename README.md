@@ -37,6 +37,7 @@ gist: conducted modeling to test ~~~
     
 3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the [NB](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
 
+## Disclaimer
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Google Colab Notebook](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
