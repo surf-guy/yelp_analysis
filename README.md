@@ -37,12 +37,8 @@ gist: conducted modeling to test ~~~
 
     *If using offline data mention that and how they may obtain the data from the froup)*
     
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the NB(Repo folder containing data processing scripts/notebooks)
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
