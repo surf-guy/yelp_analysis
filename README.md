@@ -28,19 +28,16 @@ With trusted local business information, photos and reviews, Yelp provides a one
 * TensorFlow
 
 ## Project Description
-We have 5 JSON files from [Yelp](https://www.yelp.com/dataset/documentation/main) representing users, businesses, reviews, checkins, and tips (~ short reviews). We clean the files we care about and merge them into a master dataset.
+We have 5 JSON files from [Yelp](https://www.yelp.com/dataset/documentation/main) representing users, businesses, reviews, checkins, and tips (~ short reviews). We will clean the files we care about and merge them into a master dataset as the basis to conduct our analysis and build machine learning models. 
 
-We explore the data more to make sure it's of high quality, run sentiment analysis, examine the impact of COVID on restaurant reviews, and more.
+We will first explore the data more to make sure it's of high quality, run sentiment analysis, examine the impact of COVID on restaurant reviews, and more. Any additional features needed for data will be engineered into the master dataset, using one-hot encoding technqiue. 
 
-Any additional features needed for data will be engineered into the master dataset, using one-hot encoding technqiue. 
-
-We use k-means clustering to further understand trends in the data.
-
-We run a variety of models to determine what is most accurate in predicting the review rating. They include: linear regression, logistic regression, FNN, decision tree, and random forest.
+Next, we run several machine learning models, both unsupervised and supervised. First we will use k-means clustering to further understand trends in the data. Then we will run a variety of models to determine what is most accurate in predicting the review rating. They include: linear regression, logistic regression, FNN, decision tree, and random forest with hyperparameter tuning.
 
 The predictor columns we use to build the model are:
-```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length```
+```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length", "avg_monthly_checkins"```
 
+Lastly, we will implement feedforward deep learning model to observe if it improves overall accuracy of the model. 
 
 ## Getting Started
 
