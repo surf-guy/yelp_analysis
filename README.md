@@ -39,7 +39,7 @@ The predictor columns we use to build the model are:
 
 In the same section, we will implement model evaluation using accuracy, precision, and recall metrics and also confusion matrix with heatmap. 
 
-Lastly, we will implement feedforward deep learning model to observe if it improves overall accuracy of the model. 
+Lastly, we will implement feedforward deep learning model to test and see if it improves overall accuracy of the model. 
 
 ## Getting Started
 
