@@ -25,6 +25,7 @@ The purpose of this project is to use Yelp data to model and predict the types o
 * AWS
 * Scikit-Learn
 * Pyspark
+* TensorFlow
 
 ## Project Description
 gist: conducted modeling to test ~~~ 
