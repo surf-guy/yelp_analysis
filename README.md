@@ -56,3 +56,5 @@ The purpose of this project is to use Yelp data to model and predict the types o
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
 
+## References
+*[Yelp Dataset Documentation](https://www.yelp.com/dataset/documentation/main)
