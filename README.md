@@ -39,7 +39,7 @@ gist: conducted modeling to test ~~~
 3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the [NB](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
 
 ## Disclaimer
-This project utilizes data of ~450MB size. Naturally, it takes a while to execute the codes. We recommend using the finished copy as your true source of information. If you need to run the code, please note that code blocks that utilize extensive amount memories such as Random Forests, Hyperparameter Tuning, and Deep learning might take a few hours. 
+This project utilizes data of ~450MB size. Naturally, it takes a while to execute the codes. We recommend using the finished copy as the true source of information. If you need to run the code, please note that code blocks that utilize extensive memories, such as Random Forests, Hyperparameter Tuning, and Deep Learning might take a few hours. These sections are marked with astericks in the notebook.
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Google Colab Notebook](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
