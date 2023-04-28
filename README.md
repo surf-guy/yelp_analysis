@@ -35,11 +35,11 @@ gist: conducted modeling to test ~~~
 
 3. Raw Data is being kept [here](https://drive.google.com/drive/folders/1B9sT11g-F-R3ifkLe9rloA4phKzbAO8Z?usp=share_link) through Google Drive.
     
-3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the NB(Repo folder containing data processing scripts/notebooks)
+3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the [NB](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
+* [Google Colab Notebook](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
 
 ## References
 * [Yelp Dataset Documentation](https://www.yelp.com/dataset/documentation/main)
