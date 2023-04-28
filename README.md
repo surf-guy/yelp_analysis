@@ -33,9 +33,7 @@ gist: conducted modeling to test ~~~
 
 1. Set up AWS following the instructions in the notebook.
 
-3. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
+3. Raw Data is being kept [here](https://drive.google.com/drive/folders/1B9sT11g-F-R3ifkLe9rloA4phKzbAO8Z?usp=share_link) through Google Drive.
     
 3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the NB(Repo folder containing data processing scripts/notebooks)
 
