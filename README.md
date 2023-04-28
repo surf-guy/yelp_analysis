@@ -37,6 +37,8 @@ Next, we run several machine learning models, both unsupervised and supervised. 
 The predictor columns we use to build the model are:
 ```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length", "avg_monthly_checkins"```
 
+In the same section, we will implement model evaluation using accuracy, precision, and recall metrics and also confusion matrix with heatmap. 
+
 Lastly, we will implement feedforward deep learning model to observe if it improves overall accuracy of the model. 
 
 ## Getting Started
