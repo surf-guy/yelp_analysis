@@ -28,10 +28,18 @@ With trusted local business information, photos and reviews, Yelp provides a one
 * TensorFlow
 
 ## Project Description
+We have 5 JSON files from [Yelp](https://www.yelp.com/dataset/documentation/main) representing users, businesses, reviews, checkins, and tips (~ short reviews). We clean the files we care about and merge them into a master dataset.
 
-The predictor columns are:
+We explore the data more to make sure it's of high quality, run sentiment analysis, examine the impact of COVID on restaurant reviews, and more.
+
+Any additional features needed for data will be engineered into the master dataset, using one-hot encoding technqiue. 
+
+We use k-means clustering to further understand trends in the data.
+
+We run a variety of models to determine what is most accurate in predicting the review rating. They include: linear regression, logistic regression, FNN, decision tree, and random forest.
+
+The predictor columns we use to build the model are:
 ```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length```
-
 
 
 ## Getting Started
