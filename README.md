@@ -6,7 +6,7 @@ With trusted local business information, photos and reviews, Yelp provides a one
 The purpose of this project is to use Yelp data to model and predict if overall rating of the business are affected by certain predictors like the length of the review texts they received, price range of the items they sell, whether they are good for groups or kids, accept credit cards, have take-outs, happy-hour outdoor seatings. 
 
 The predictor columns are:
-```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length
+```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length```
 
 ## Project Description
 gist: conducted modeling to test ~~~ 
