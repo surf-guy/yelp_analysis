@@ -4,8 +4,7 @@ With trusted local business information, photos and reviews, Yelp provides a one
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is to use Yelp data to model and predict the types of restaurants that are likely to succeed based on their business and review attributes.
-
+The purpose of this project is to use Yelp data to model and predict if overall rating of the business are affected by certain predictors like the length of the review texts they received, price range of the items they sell, whether they are good for groups or kids, accept credit cards, have take-outs, happy-hour outdoor seatings. 
 
 ### Partner
 * Matt Ordway, Phong Le, Lin Price
