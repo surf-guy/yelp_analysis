@@ -1,7 +1,5 @@
 # Yelp-Data-Analysis
-
 With trusted local business information, photos and reviews, Yelp provides a one-stop platform for consumers to discover local businesses. For business owners, it’s a critical marketing platform to generate buzz. A business thrives when they receive high user ratings, high number of reviews, and positive reviews, to name a few. 
-
 
 #### -- Project Status: [Completed]
 
@@ -28,6 +26,8 @@ The purpose of this project is to use Yelp data to model and predict the types o
 * Pyspark
 
 ## Project Description
+gist: conducted modeling to test ~~~ 
+
 
 ## Getting Started
 
