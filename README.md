@@ -1,4 +1,5 @@
 # Yelp-Data-Analysis
+#### -- Project Status: [Completed]
 
 ## Project Intro & Objective
 With trusted local business information, photos and reviews, Yelp provides a one-stop platform for consumers to discover local businesses. For business owners, it’s a critical marketing platform to generate buzz. A business thrives when they receive high user ratings, high number of reviews, and positive reviews, to name a few. 
@@ -11,7 +12,7 @@ The predictor columns are:
 ## Project Description
 gist: conducted modeling to test ~~~ 
 
-#### -- Project Status: [Completed]
+
 
 
 ### Partners
