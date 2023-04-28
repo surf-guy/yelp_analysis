@@ -14,23 +14,21 @@ The purpose of this project is to use Yelp data to model and predict the types o
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
 * Data Visualization
-* Predictive Modeling
-* etc.
+* Unsupervised Machine Learning: K-Clusters and PCA
+* Supervised Machine Learning: Linear Regression, Logistic Regression, Decision Tree, and Random Forests
+* Regularization
+* Hyperparameter tuning
+* Machine Learning Model Evaluation - Accuracy, Precision, Recall, Confusion Matrix, and ROC curve
+
 
 ### Technologies
-* R 
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* AWS
+* Scikit-Learn
+* Pyspark
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+
 
 ## Needs of this project
 
@@ -57,5 +55,4 @@ The purpose of this project is to use Yelp data to model and predict the types o
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+
