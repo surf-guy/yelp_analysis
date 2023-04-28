@@ -9,11 +9,6 @@ The purpose of this project is to use Yelp data to model and predict if overall 
 The predictor columns are:
 ```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length```
 
-## Project Description
-gist: conducted modeling to test ~~~ 
-
-
-
 
 ### Partners
 * Matt Ordway
