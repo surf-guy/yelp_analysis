@@ -19,7 +19,7 @@ The purpose of this project is to use Yelp data to model and predict the types o
 * Supervised Machine Learning: Linear Regression, Logistic Regression, Decision Tree, and Random Forests
 * Regularization
 * Hyperparameter tuning
-* Machine Learning Model Evaluation - Accuracy, Precision, Recall, Confusion Matrix, and ROC curve
+* Machine Learning Model Evaluation - Accuracy, Precision, Recall, Confusion Matrix, and ROC curve [AUC]
 
 
 ### Technologies
