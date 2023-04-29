@@ -22,7 +22,6 @@ With trusted local business information, photos and reviews, Yelp provides a one
 
 
 ### Technologies
-* AWS
 * Scikit-Learn
 * Pyspark
 * TensorFlow
@@ -37,24 +36,22 @@ Next, we run several machine learning models, both unsupervised and supervised. 
 The predictor columns we use to build the model are:
 ```"review_count", "price_range", "good_for_groups", "accepts_credit_card", "has_take_out", "has_outdoor_seating", "good_for_kids", "has_reservations", "has_happy_hour", "review_length", "avg_monthly_checkins"```
 
-In the same section, we will implement model evaluation using accuracy, precision, and recall metrics and also confusion matrix with heatmap. 
-
-Lastly, we will implement feedforward deep learning model to test and see if it improves overall accuracy of the model. 
+In the same section, we will implement model evaluation using accuracy, precision, and recall metrics as well as confusion matrix with heatmap. 
 
 ## Getting Started
 
-1. Set up AWS following the instructions in the notebook.
+1. Our team leveraged Google Drive to store the Yelp dataset; stored in the yelp_dataset folder of a folder called [545_Group_Project](https://drive.google.com/drive/folders/1B9sT11g-F-R3ifkLe9rloA4phKzbAO8Z?usp=share_link). Should you not be able to access this link, download the dataset from [Yelp](https://www.yelp.com/dataset/documentation/main), and add it into a folder on your Drive called 545_Group_Project.
 
-3. Raw Data is being kept [here](https://drive.google.com/drive/folders/1B9sT11g-F-R3ifkLe9rloA4phKzbAO8Z?usp=share_link) through Google Drive.
-    
-3. Data processing/transformation/EDA/Modeling/Evaluation scripts are being kept in the [NB](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
+2. All imports and additional steps to follow are in our Google Colab Notebook #1 [here](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link).
 
 ## Disclaimer
-This project utilizes data of ~450MB size. Naturally, it takes a while to execute the codes. We recommend using the finished copy as the true source of information. If you need to run the code, please note that code blocks that utilize extensive memories, such as Random Forests, Hyperparameter Tuning, and Deep Learning might take a few hours. These sections are marked with astericks in the notebook.
+This project utilizes starting data of close to 10GB (in JSON files), thought we pare it down for our final models. Naturally, it can take a while to execute the code. We recommend using the finished (fully executed) notebooks linked below as the true source of information. 
+
+In order to decrease the run-time, we have separated the code into two notebooks (NBs). NB#1 does all the data transformations, and then writes the final dataframe back to our yelp_dataset folder on Drive. NB#2 reads that dataframe back into memory, and then runs all the machine learning models. We realized this at the tail end of the project - likely since there is less stored in RAM, models like k-means clustering decreased from 7 hours to minutes.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Google Colab Notebook #1 - data preprocessing, eda](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
-* [Google Colab Notebook #2 - modeling, evaluation, summary](https://colab.research.google.com/drive/1ipUpndrpZrtwiM0MhA5tnBkuYdrpPNNm?usp=sharing)
+* [Google Colab Notebook #1 - Data Preprocessing, EDA](https://colab.research.google.com/drive/1uBpqYS_SEux-N97jmCCxvRGMIm-mNctm?usp=share_link)
+* [Google Colab Notebook #2 - Modeling, Evaluation, Summary](https://colab.research.google.com/drive/1ipUpndrpZrtwiM0MhA5tnBkuYdrpPNNm?usp=sharing)
 
 ## References
 * [Yelp Dataset Documentation](https://www.yelp.com/dataset/documentation/main)
